@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@100;200&family=Roboto:wght@100&display=swap');
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+html{
+  font-size:20px;
+}
+
+body{
+  text-align: center;
+  font-family: 'Inter';
+  color: #1d1d1c;
+}
+
+h1{
+  font-size: 4.65rem;
+  font-family:'Bebas Neue';
+  color: #8462ff;
+  line-height:1;
+}
+
+#main{
+  background-color: #fcf3e4;
+  border-radius:10px;
+  padding: 30px;
+  margin:auto;
+}
+#title{
+  margin: 25px 0 50px 0; 
+}
+
+.carousel-container{
+  
+  max-width:900px;
+  margin:auto;
+  overflow: hidden;
+  border:5px solid black;
+  margin-bottom: 1em;
+}
+
+.carousel-slide{
+  display: flex;
+  width:100%;
+  height:500px;
+  
+}
+.image{
+  width:100%;
+  object-fit:cover;
+  z-index:1;
+}
+.btn-group{
+  position:relative;
+  left:0;
+  right:0;
+  top:-300px;
+  max-width: 900px;
+  margin:auto;
+  display:flex;
+  justify-content:space-between;
+}
+.btn{
+  border-radius:10%;
+  padding:10px;
+  width:50px;
+  
+}
+
+#headline {
+  margin: 50px 0;
+  text-align: center;
+}
+
+ul{
+  max-width: 500px;
+  text-align: left;
+  margin: 0 auto 50px auto;
+  line-height: 1.5;
+  
+}
+
+li{
+  margin: 15px 0;
+}
+
+@media (max-width: 360px) {
+  #main{
+    padding: 10px;
+  }
+}
+
+
+@media (max-width: 320px) {
+  #main {
+    padding: 0;
+  }
+  
+  
+  #title{
+    padding-top:1rem;
+  }
+  h1 {
+    font-size: 3rem;
+    line-height: 1;
+  }
+  
+  
+
+}
